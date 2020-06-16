@@ -1,5 +1,8 @@
-module MyLogger = {
-  [@bs.val] external log: string => unit = "console.log";
-};
-
-MyLogger.log("Hello World");
+TheLogger.info("Adil");
+TheLogger.warn("Adil");
+TheLogger.error("Adil");
+TheLogger.count();
+TheLogger.count();
+TheLogger.count();
+TheLogger.count();
+TheLogger.count();
